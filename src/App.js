@@ -1,22 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import  Exercise2 from './components/container/exercise2';
 
 function App() {
+  // Obj: pasar el Example2 (Componente de tipo clase a un componente de tipo funcion (Exercise2))
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Exercise2></Exercise2>
       </header>
     </div>
   );
